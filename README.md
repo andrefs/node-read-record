@@ -56,6 +56,13 @@ for await (const rec of records){
 // string
 ```
 
+## To do
+
+* add option to discard empty records
+* add option to define size of `fs.createReadStream` `highWaterMark`
+* add option to define size of `fs.createReadStream` `encoding`
+  param
+
 ## Bugs and stuff
 Open a GitHub issue or, preferably, send me a pull request.
 
