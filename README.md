@@ -29,15 +29,17 @@ const rr = require('read-record');
 
 ## API
 
-* `rr.records(stream, recsep)` - `stream` is a [Readable
-  Stream](https://nodejs.org/api/stream.html#stream_readable_streams),
-`recsep` is either a String or Regular Expression (anything that can
-be passed on to String.split() method)
+* `rr.records(stream, recsep)`
+  * `stream` is a [Readable
+  Stream](https://nodejs.org/api/stream.html#stream_readable_streams)
+  * `recsep` is either a String or Regular Expression (anything that can
+be passed on to `String.split()` method)
 
-* `rr.recordsFromFile(path, recsep)` - `path` is a String containing a
-  valid path to a text file.
+* `rr.recordsFromFile(path, recsep)`
+  * `path` is a String containing a valid path to a text file.
 
-* `rr.recordsFromString(str, recsep)` - `str` is a String.
+* `rr.recordsFromString(str, recsep)`
+  * `str` is a String.
 
 ## Example
 
@@ -47,7 +49,7 @@ const rr = require('read-record');
 const records = rr.recordsFromString('This is a string', ' ');
 
 for await (const rec of records){
-  console.log(rec); 
+  console.log(rec);
 }
 
 // This
