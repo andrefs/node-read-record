@@ -12,6 +12,10 @@
     "async",
     "generator"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrefs/node-read-record.git"
+  },
   "author": "André Santos",
   "license": "ISC",
   "devDependencies": {

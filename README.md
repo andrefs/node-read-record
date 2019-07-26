@@ -64,6 +64,10 @@ for await (const rec of records){
 * add option to define size of `fs.createReadStream` `highWaterMark`
 * add option to define size of `fs.createReadStream` `encoding`
   param
+* evalutate (and increase) efficiency
+* use event 'line' instead of `for await...of` loop
+* use `indexOf` instead of regular expressions?
+
 
 ## Bugs and stuff
 Open a GitHub issue or, preferably, send me a pull request.
