@@ -1,6 +1,6 @@
 {
   "name": "read-record",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Define a record separator and read a file record by record.",
   "main": "index.js",
   "scripts": {
