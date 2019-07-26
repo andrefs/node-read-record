@@ -20,7 +20,6 @@ npm i -S read-record
 ```
 
 ```js
-import AVLTree from 'avl-promise';
 const rr = require('read-record');
 ```
 
